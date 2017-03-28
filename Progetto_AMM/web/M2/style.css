@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 28, 2017, 11:46:30 AM
+    Author     : Giacomo
+*/
+body{
+    background-color: #b8860b;
+    font: 17px/25px "Open Sans",Arial, sans-serif;
+}
+
+h1{
+    margin-top:0px;
+    color:#D2B48C;
+    font: 25px/30px "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+h2{
+    margin-top:0px;
+    color:#D2B48C;
+    font: 25px/30px "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+h3{
+    margin-top:0px;
+    color:#D2B48C;
+    font: 25px/30px "Courier New", Courier, monospace;
+    font-weight: bold;
+}
