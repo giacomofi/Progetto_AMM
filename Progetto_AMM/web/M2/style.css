@@ -61,7 +61,7 @@ a:visited{
 
 nav ol, nav li{
     list-style-type: none;
-    display:inline;
+    display:inline-block;
     
 }
 
@@ -74,13 +74,28 @@ nav li{
 
 #navBar{
     padding:50px;
-    margin-left:28px;
-    margin-top:-148px;
+    margin-left:68px;
+    margin-top:-149px;
+}
+
+#navBar_login{
+    
+    display:none;
+}
+
+#nav_bacheca{
+    
+    border:solid;
+    border-radius:50px;
+    margin-left:5px;
+    margin-bottom:4px;
+    
 }
 
 
 #Bacheca{
-    margin-top:-275px;
+    margin-top:-278px;
+    margin-left:-350px;
     
 }
 
@@ -100,18 +115,79 @@ nav li{
     position:relative;
     left: -130px;
     top:-55px;
+    border-radius:100px;
 }
 #visuale{
-    border:solid;
     border-color:#000000;
     width: 15%;
+}
+input:after{
+    content: '\A\ ';
+    white-space: pre;
+    
+}
+
+#social_name{
+    margin-bottom: -5px;
+}
+
+#web_site{
+    border:solid;
+    border-radius:50px;
+    width:9%;
+}
+
+#persone{
+    border:solid;
+}
+
+#gruppi{
+    border:solid;
+    margin-top:-3px;
+}
+
+#form_login{
+    margin-left:418px;
+    border:solid;
+    width:28%;
+    border-radius: 4%;
+}
+
+#form_login button{
+    width:46%;
+    margin-top:18px;
+}
+
+#form_login,input:after{
+    
+    content:'\A ';
+    white-space:pre;
+}
+
+#title_log{
+    margin-left:540px;
+    margin-bottom:10px;
+}
+
+#navBar_profile{
+    margin-top:0px;
+}
+
+#profile_form{
     
 }
 
 
 
+#profile_form label{
+    float:left;
+    clear:left;
+}
 
-
+#profile_form input{
+    float:right;
+    clear:right;
+}
 
 
 
