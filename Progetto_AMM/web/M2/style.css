@@ -22,14 +22,14 @@ p{
 
 #title{
     color: antiquewhite;
-    background-color: #cc00ff; 
+  
 }
 
 
 h1{
     margin-top:0px;
     color:#000000;
-    font: 25px/30px "Open Sans", Arial, sans-serif;
+    font: 45px/35px "Open Sans", Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -59,10 +59,22 @@ a:visited{
     color: #111111;
 }
 
+a:hover{
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+nav li.active{
+   
+     background-color:white;
+     border-radius:50px;
+}
+
+
 nav ol, nav li{
     list-style-type: none;
     display:inline-block;
-    
+     font: 25px/30px "Open Sans",Arial,sans-serif;
 }
 
 
@@ -84,11 +96,8 @@ nav li{
 }
 
 #nav_bacheca{
-    
-    border:solid;
-    border-radius:50px;
-    margin-left:5px;
-    margin-bottom:4px;
+    margin-left:113px;
+    margin-top:6px;
     
 }
 
@@ -120,6 +129,8 @@ nav li{
 #visuale{
     border-color:#000000;
     width: 15%;
+    margin-top:-22px;
+    margin-left:16px;
 }
 input:after{
     content: '\A\ ';
@@ -131,19 +142,22 @@ input:after{
     margin-bottom: -5px;
 }
 
-#web_site{
-    border:solid;
-    border-radius:50px;
-    width:9%;
-}
-
 #persone{
     border:solid;
+    height:173px;
 }
 
 #gruppi{
     border:solid;
     margin-top:-3px;
+    height:173px;
+}
+
+#wall_list{
+    border:solid;
+    border-radius:50px;
+    width:101%;
+    
 }
 
 #form_login{
@@ -170,11 +184,14 @@ input:after{
 }
 
 #navBar_profile{
-    margin-top:0px;
+    margin-top:-93px;
+    margin-left:236px;
 }
 
 #profile_form{
-    
+    width:31%;
+    margin-left:424px;
+    margin-top:-319px;
 }
 
 
@@ -187,6 +204,29 @@ input:after{
 #profile_form input{
     float:right;
     clear:right;
+}
+
+#data_di_nascita{
+    width:168px;
+    
+}
+
+.web_site{
+    border:solid;
+    border-radius:50px;
+    width:17%;
+}
+
+
+#profile_list{
+    border:solid;
+    border-radius:50px;
+    width:96%;
+}
+
+#invia{
+    width:100%;
+    margin-top:30px;
 }
 
 
