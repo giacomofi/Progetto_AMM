@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : Giacomo
 */
 body{
-    background-color: #99ff99;
+    background-color:#ccffcc;
     font: 17px/25px "Open Sans",Arial, sans-serif;
 }
 
@@ -74,7 +74,7 @@ nav li.active{
 nav ol, nav li{
     list-style-type: none;
     display:inline-block;
-     font: 25px/30px "Open Sans",Arial,sans-serif;
+    font: 25px/30px "Open Sans",Arial,sans-serif;
 }
 
 
@@ -103,7 +103,7 @@ nav li{
 
 
 #Bacheca{
-    margin-top:-278px;
+    margin-top:-392px;
     margin-left:-350px;
     
 }
@@ -116,6 +116,8 @@ nav li{
     border: solid;
     border-color: #000000;
     width:25%;
+    margin-top:37px;
+    border-radius:10px;
 }
 .profileName{
     position:relative;
@@ -126,6 +128,19 @@ nav li{
     top:-55px;
     border-radius:100px;
 }
+
+#postImage{
+    width:100%;
+    border-radius:20px;
+}
+
+.immagine_profilo{
+    
+    border-radius:100px;
+    
+    
+}
+
 #visuale{
     border-color:#000000;
     width: 15%;
@@ -141,14 +156,19 @@ input:after{
 #social_name{
     margin-bottom: -5px;
 }
-
+ul{
+    list-style-type: none;
+    
+}
 #persone{
     border:solid;
+    border-radius:10px;
     height:173px;
 }
 
 #gruppi{
     border:solid;
+    border-radius:10px;
     margin-top:-3px;
     height:173px;
 }
@@ -156,7 +176,31 @@ input:after{
 #wall_list{
     border:solid;
     border-radius:50px;
-    width:101%;
+    width:49%;
+   
+    
+}
+
+#logout{
+    margin-left: 828px ;
+    margin-top:-110px;
+    padding-bottom:14px;
+    border:solid;
+    border-radius:25px;
+    text-align:center;
+    width:29%;
+    margin-bottom:110px;
+    background-image: url(img/Spidey.jpg);
+    background-repeat: no-repeat; 
+    background-size: 15%;
+    background-position-x: 10px;
+    background-position-y: 6px;
+    
+}
+
+#getout{
+    margin-left:10px;
+    margin-top:-20px;
     
 }
 
@@ -179,13 +223,16 @@ input:after{
 }
 
 #title_log{
-    margin-left:540px;
-    margin-bottom:10px;
+    margin-left:510px;
+    margin-bottom:11px;
+    padding-top:10px;
+    
 }
 
 #navBar_profile{
     margin-top:-93px;
     margin-left:236px;
+    width:44%;
 }
 
 #profile_form{
@@ -212,9 +259,11 @@ input:after{
 }
 
 .web_site{
+    background-color:#ccccff;
     border:solid;
     border-radius:50px;
     width:17%;
+    text-align:center;
 }
 
 
@@ -224,12 +273,48 @@ input:after{
     width:96%;
 }
 
+#profile_logout{
+    margin-left:857px;
+    margin-top:-61px;
+    padding-bottom:12px;
+    border:solid;
+    border-radius:25px;
+    width:29%;
+    text-align:center;
+    margin-bottom:65px;
+    background-image: url(img/Spidey.jpg);
+    background-repeat: no-repeat; 
+    background-size: 15%;
+    background-position-x: 10px;
+    background-position-y: 6px;
+    
+}
+
 #invia{
     width:100%;
     margin-top:30px;
 }
 
+#Nerd_log{
+    padding-bottom:20px;
+    background-image: url(img/n.png);
+    background-repeat: no-repeat; 
+    background-size: 4%;
+    background-position-x: 417px;
+    background-position-y: 0px;
+}
 
+@media only screen and (max-vidth:480px){
+    
+    
+    
+}
+
+@media only screen and (min-width:481px) and (max-width:1024px){
+    
+    
+    
+}
 
 
 
