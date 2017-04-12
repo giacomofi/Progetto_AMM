@@ -200,8 +200,8 @@ ul{
     background-image: url(img/Spidey.jpg);
     background-repeat: no-repeat; 
     background-size: 15%;
-    background-position-x: 10px;
-    background-position-y: 6px;
+    background-position: 10px 6px;
+    
     
 }
 
@@ -299,8 +299,8 @@ ul{
     background-image: url(img/Spidey.jpg);
     background-repeat: no-repeat; 
     background-size: 15%;
-    background-position-x: 10px;
-    background-position-y: 6px;
+    background-position: 10px 6px;
+    
     
 }
 
@@ -321,8 +321,8 @@ ul{
     background-image: url(img/n.png);
     background-repeat: no-repeat; 
     background-size: 4%;
-    background-position-x: 417px;
-    background-position-y: 0px;
+    background-position: 417px 0px;
+   
 }
 
 #presentation{
@@ -399,8 +399,8 @@ ul{
     background-image: url(img/Spidey.jpg);
     background-repeat: no-repeat; 
     background-size: 6%;
-    background-position-x: 314px;
-    background-position-y: 4px; 
+    background-position: 314px 4px;
+   
 }
 
 #user:focus{
@@ -436,8 +436,8 @@ ul{
     
     #Nerd_log{
         background-size: 11%;
-        background-position-x: 95px;
-        background-position-y: -1px;
+        background-position:95px -1px;
+       
           
     }
     #title_log{
@@ -499,7 +499,7 @@ ul{
     
     #form_img{
         background-size:10%;
-        background-position-x: 16px;
+        background-position: 16px;
         
     }
     #nome{
