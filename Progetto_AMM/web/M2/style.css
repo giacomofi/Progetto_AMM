@@ -632,8 +632,7 @@ ul{
         width:54%;
     }
     #Nerd_log{
-        background-position-x: 177px;
-        background-position-y: 33px;
+        background-position: 177px 33px;
         background-size: 5%;
     }
 }
