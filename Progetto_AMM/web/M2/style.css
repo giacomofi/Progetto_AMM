@@ -11,7 +11,11 @@ body{
     background-color:#ccffcc;
     font: 17px/25px "Open Sans",Arial, sans-serif;
 }
-
+description_nav{
+    position:relative;
+    top:70px;
+    right:0px;
+}
 p{
     margin-top:0px;
     color:#000000;
@@ -20,10 +24,6 @@ p{
     
 }
 
-#title{
-    color: antiquewhite;
-  
-}
 
 
 h1{
@@ -66,8 +66,8 @@ a:hover{
 
 nav li.active{
    
-     background-color:white;
-     border-radius:50px;
+    background-color:#6666ff;
+    border-radius:50px;
 }
 
 
@@ -109,11 +109,11 @@ nav li{
 }
 
 .post{
+    background-color:#ccccff;
     padding:15px;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
-    border: solid;
     border-color: #000000;
     width:25%;
     margin-top:37px;
@@ -142,7 +142,6 @@ nav li{
 }
 
 #visuale{
-    border-color:#000000;
     width: 15%;
     margin-top:-22px;
     margin-left:16px;
@@ -161,20 +160,28 @@ ul{
     
 }
 #persone{
-    border:solid;
+    background-color:#ccccff;
     border-radius:10px;
     height:173px;
 }
 
+#People{
+    background-color: #999999;
+}
+
+#Crew{
+    background-color: #999999;
+}
+
 #gruppi{
-    border:solid;
+    background-color:#ccccff;
     border-radius:10px;
     margin-top:-3px;
     height:173px;
 }
 
 #wall_list{
-    border:solid;
+    background-color:#ccccff;
     border-radius:50px;
     width:49%;
    
@@ -185,7 +192,7 @@ ul{
     margin-left: 828px ;
     margin-top:-110px;
     padding-bottom:14px;
-    border:solid;
+    background-color:#ccccff;
     border-radius:25px;
     text-align:center;
     width:29%;
@@ -206,7 +213,7 @@ ul{
 
 #form_login{
     margin-left:418px;
-    border:solid;
+    background-color:#ccccff;
     width:28%;
     border-radius: 4%;
 }
@@ -214,6 +221,13 @@ ul{
 #form_login button{
     width:46%;
     margin-top:18px;
+    
+}
+
+#form_login button:focus{
+   outline: none;
+   border-color: #6666ff;
+   box-shadow: 0 0 10px #22bb22;
 }
 
 #form_login,input:after{
@@ -239,6 +253,7 @@ ul{
     width:31%;
     margin-left:424px;
     margin-top:-319px;
+    
 }
 
 
@@ -260,7 +275,6 @@ ul{
 
 .web_site{
     background-color:#ccccff;
-    border:solid;
     border-radius:50px;
     width:17%;
     text-align:center;
@@ -268,7 +282,7 @@ ul{
 
 
 #profile_list{
-    border:solid;
+    background-color:#ccccff;
     border-radius:50px;
     width:96%;
 }
@@ -277,7 +291,7 @@ ul{
     margin-left:857px;
     margin-top:-61px;
     padding-bottom:12px;
-    border:solid;
+    background-color:#ccccff;
     border-radius:25px;
     width:29%;
     text-align:center;
@@ -293,6 +307,13 @@ ul{
 #invia{
     width:100%;
     margin-top:30px;
+   
+    
+}
+#invia:focus{
+    outline: none;
+    border-color: #6666ff;
+    box-shadow: 0 0 10px #22bb22;
 }
 
 #Nerd_log{
@@ -304,16 +325,317 @@ ul{
     background-position-y: 0px;
 }
 
-@media only screen and (max-vidth:480px){
+#presentation{
+    margin-top:54px;
+    margin-left:165px;
+    margin-bottom:-4px;
+    width:174px;
     
+}
+
+#presentation:focus{
+     outline: none;
+     border-color: #6666ff;
+     box-shadow: 0 0 10px #22bb22;
+}
+
+#data_di_nascita{
+    width:175px;
+    margin-bottom:3px;
+}
+#data_di_nascita:focus{
+     outline: none;
+     border-color: #6666ff;
+     box-shadow: 0 0 10px #22bb22;
+}
+#nome{
+    width:42%;
+}
+
+#nome:focus{
+     outline: none;
+     border-color: #6666ff;
+     box-shadow: 0 0 10px #22bb22;
+}
+
+#cognome{
+    width:42%;
+}
+
+#cognome:focus{
+     outline: none;
+     border-color: #6666ff;
+     box-shadow: 0 0 10px #22bb22;
+}
+#profile{
+    width:42%;
+}
+#profile:focus{
+     outline: none;
+     border-color: #6666ff;
+     box-shadow: 0 0 10px #22bb22;
+}
+#conf_pass{
+    width:42%;
     
+}
+#conf_pass:focus{
+     outline: none;
+     border-color: #6666ff;
+     box-shadow: 0 0 10px #22bb22;
+}
+#pass{
+    margin-bottom:3px;
+    width:42%;
+}
+
+#pass:focus{
+     outline: none;
+     border-color: #6666ff;
+     box-shadow: 0 0 10px #22bb22;
+}
+
+#form_img{
+    background-image: url(img/Spidey.jpg);
+    background-repeat: no-repeat; 
+    background-size: 6%;
+    background-position-x: 314px;
+    background-position-y: 4px; 
+}
+
+#user:focus{
+     outline: none;
+     border-color: #6666ff;
+     box-shadow: 0 0 10px #22bb22;
+}
+
+#pass_login:focus{
+     outline: none;
+     border-color: #6666ff;
+     box-shadow: 0 0 10px #22bb22;
+}
+
+
+
+@media only screen and (max-width:480px){
     
+    #form_login{
+        margin-left:91px;
+        width:66%;
+    }
+    #user{
+        margin-left:-21px;
+    }
+    #pass_login{
+        margin-left:-21px;
+    }
+    #form_login button{
+        width:57%;
+        margin-left:-22px;
+    }
+    
+    #Nerd_log{
+        background-size: 11%;
+        background-position-x: 95px;
+        background-position-y: -1px;
+          
+    }
+    #title_log{
+        margin-bottom:0px;
+        margin-top:0px;
+        margin-left: 169px;
+    }
+    
+    #profile_list{
+        width:120%;
+        margin-top:101px;
+        margin-left:-242px;
+    }
+    
+    .web_site{
+        width:53%;
+        margin-left:99px;
+    }
+    
+    #persone{
+        width:240%;
+        margin-left:130px;
+        text-align:center;
+    }
+    
+    #gruppi{
+        width:240%;
+        margin-left:130px;
+        text-align:center;
+        
+    }
+    
+    #profile_logout{
+       width:70%;
+       margin-left:64px;
+       margin-top:-13px;
+    }
+    
+    #visuale{
+        margin-top:-38px;
+    }
+    
+    #profile_form label{
+        float:none;
+   
+    
+    }
+
+    #profile_form input{
+        float:none;
+   
+    }
+    
+    #profile_form{
+        width:32%;
+        margin-top:59px;
+        margin-left:146px;
+    }
+    
+    #form_img{
+        background-size:10%;
+        background-position-x: 16px;
+        
+    }
+    #nome{
+        margin-left: 1px;
+        width:100%;
+    }
+    #cognome{
+        margin-left: 1px;
+        width:100%;
+    }
+    #profile{
+        margin-left: -1px;
+        width:100%;
+    }
+    #presentation{
+        margin-left:0px;
+        width:100%;
+        margin-top: 0px;
+    }
+    #data_di_nascita{
+        width:100%;
+    }
+    #pass{
+        width:100%;
+    }
+    #conf_pass{
+        margin-left:2px;
+        width:100%;
+    }
+    #invia{
+        width:105%;
+    }
+    
+    #navBar_profile{
+        margin-left:322px;
+    }
+    #profile_people_decoration{
+        padding-left:0px;
+        text-align:center;
+    }
+    #crew_decoration{
+        padding-left:0px;
+        text-align:center;
+    }
+    
+    #nav_bacheca{
+        margin-left:-46px;
+        margin-top:92px;
+    }
+    
+    #wall_list{
+        width:81%;
+    }
+    
+    #logout{
+        margin-left: 81px;
+        margin-top:-39px;
+        width:65%;
+    }
+    
+    .post{
+        margin-left:23px;
+        width:78%;
+    }
+    
+    #wall_people_decoration{
+        text-align:center;
+    }
+    
+    #crew_people_decoration{
+        text-align:center;
+    }
+    
+    #Bacheca{
+        margin-top:6px;
+        margin-left:31px;
+    }
+   
 }
 
 @media only screen and (min-width:481px) and (max-width:1024px){
     
+    .web_site{
+        position:relative;
+        width:52%;
+    }
+    #navBar{
+        position:relative;
+        margin-top:-152px;
+    }
+    #logout{
+        position:relative;
+        right:832px;
+        top:47px;
+        width:58%;
+    }
+    #wall_list{
+        position:relative;
+        left:116px;
+        width:69%;
+    }
     
+    #Bacheca{
+        position:relative;
+        margin-left:-58px;
+    }
+    .post{
+        position:relative;
+        left:121px;
+        width:49%;
+    }
     
+    #persone{
+       width:172%; 
+    }
+    #gruppi{
+        position:relative;
+        width:172%;
+    }
+    
+    #title_log{
+        position:relative;
+        top:20px;
+        right:281px;
+        
+    }
+    #form_login{
+        position:relative;
+        right:243px;
+        width:54%;
+    }
+    #Nerd_log{
+        background-position-x: 177px;
+        background-position-y: 33px;
+        background-size: 5%;
+    }
 }
 
 
